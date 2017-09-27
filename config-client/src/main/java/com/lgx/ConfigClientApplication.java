@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-//@EnableEurekaClient
+@EnableEurekaClient
 @RestController
 @RefreshScope
+//http://LAPTOP-F8JPJ93V:8888/通过这个服务明查找配置信息，当注册到服务中心时
 public class ConfigClientApplication {
 
 	public static void main(String[] args) {
